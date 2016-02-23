@@ -37,10 +37,11 @@ function wait() {
         });
         console.log(this);
         obj_app.email_client.method_random_code();
-        this.html_string = "Congradulations  " + crud_input_username.value + "! \ <br>"+
+        this.html_string = "Congradulations  " + crud_input_username.value + " \ <br>"+
         "Here are some links we will be working with today: "+ '\ <br />' +
         " \ <a href='https://github.com/'> Github</a>" + '\ <br />' +
-        " \ <a href='https://c9.io/' > Cloud 9</a>" + '\ <br />' + " \ <a href='http://jperez4509.github.io/bootcamp2/links.html'>Handy Links </a>";
+        " \ <a href='https://c9.io/' > Cloud 9</a>" + '\ <br />' +
+        " \ <a href='http://jperez4509.github.io/bootcamp2/links.html'>Handy Links </a>";
         this.params = {
             "message": {
                 "from_email": "vinsonfernandez27@gmail.com",
